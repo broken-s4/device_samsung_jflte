@@ -10,5 +10,5 @@
   #
 
   PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/tipsy.mk \
+    $(LOCAL_DIR)/broken.mk \
     $(LOCAL_DIR)/full_jflte.mk

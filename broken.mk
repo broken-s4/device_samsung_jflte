@@ -27,5 +27,5 @@ $(call inherit-product, device/samsung/jflte/full_jflte.mk)
 # Inherit our stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
-PRODUCT_NAME := tipsy_jflte
+PRODUCT_NAME := broken_jflte
   
