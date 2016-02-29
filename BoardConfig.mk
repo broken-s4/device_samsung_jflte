@@ -47,9 +47,12 @@ BOARD_KERNEL_CMDLINE := androidboot.hardware=qcom user_debug=31 zcache msm_rtb.f
 BOARD_KERNEL_BASE := 0x80200000
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x02000000
 BOARD_KERNEL_PAGESIZE := 2048
-TARGET_KERNEL_SOURCE := kernel/samsung/jf
-TARGET_KERNEL_CONFIG := aosp_jf_defconfig
-TARGET_KERNEL_CROSS_COMPILE_PREFIX := arm-linux-androideabi-
+TARGET_KERNEL_CONFIG := cyanogen_jf_defconfig
+TARGET_KERNEL_SOURCE := /home/chris/android/github_trackers/m-repos/s4/new/android_kernel_samsung_jf
+# Kernel Toolchain
+KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-4.8/bin
+KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
+TARGET_GCC_VERSION_EXP := 4.9
 
 # Audio
 BOARD_HAVE_AUDIENCE_ES325_2MIC := true
