@@ -309,3 +309,5 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Common Qualcomm
 $(call inherit-product, device/samsung/qcom-common/qcom-common.mk)
+PRODUCT_COPY_FILES += \
+    device/samsung/jflte/releasetools/loki.sh:install/bin/loki.sh
