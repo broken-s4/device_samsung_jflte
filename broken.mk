@@ -28,4 +28,7 @@ $(call inherit-product, device/samsung/jflte/full_jflte.mk)
 $(call inherit-product, vendor/broken/config/common_full_phone.mk)
 
 PRODUCT_NAME := broken_jflte
-  
+
+# Broken Device Maintainers
+PRODUCT_BUILD_PROP_OVERRIDES += \
+	DEVICE_MAINTAINERS="chris4824"
