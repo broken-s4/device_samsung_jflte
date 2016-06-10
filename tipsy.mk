@@ -25,10 +25,10 @@
 $(call inherit-product, device/samsung/jflte/full_jflte.mk)
 
 # Inherit our stuff.
-$(call inherit-product, vendor/broken/config/common_full_phone.mk)
+$(call inherit-product, vendor/tipsy/config/common_full_phone.mk)
 
-PRODUCT_NAME := broken_jflte
+PRODUCT_NAME := tipsy_jflte
 
-# Broken Device Maintainers
+# tipsy Device Maintainers
 PRODUCT_BUILD_PROP_OVERRIDES += \
 	DEVICE_MAINTAINERS="chris4824"
